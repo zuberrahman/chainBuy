@@ -66,8 +66,8 @@ const FormRightWrapper = () => {
           <RowSecondInput>
             <label>Choose Category</label>
             <Select onChange={Handler.FormHandler} value={Handler.form.category} name="category">
-              <option>Ornaments</option>
               <option>Books</option>
+              <option>Ornaments</option>
               <option>Furniture</option>
             </Select>
           </RowSecondInput>

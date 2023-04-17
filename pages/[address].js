@@ -132,9 +132,16 @@ export default function Detail({Data, DonationsData}) {
             }
           </MyDonation>
         </Donated>
+        <form action="http://127.0.0.1:5501/index.html" >
+         <button type="submit" target="_blank">Click</button>
+      </form>
       </RightContainer>
     </DetailWrapper>
   );
+}
+
+function openProject() {
+  window.open('http://127.0.0.1:5501/index.html');
 }
 
 

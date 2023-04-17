@@ -136,6 +136,7 @@ const Address = styled.div`
     align-items:center ;
     background-color:${(props) => props.theme.bgSubDiv} ;
     border-radius:8px;
+    font-family: 'poppins';
 `
 
 const Button = styled.button`
